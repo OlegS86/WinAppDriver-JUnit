@@ -1,0 +1,21 @@
+Application Driver
+1. Download WinAppDriver
+
+2. Install WinAppDriver
+
+3. Enable Windows 10 Developer Mode
+https://www.automatetheplanet.com/automate-windows-desktop-apps-winappdriver/#tab-con-1
+Open Windows 10 Settings. Then navigate to Update & Settings section. Click For Developers tab. Choose the Developer mode option.
+
+4. Download Windows SDK
+
+5. Install Windows SDK
+
+6. Create a new test project in Visual Studio
+
+7. Install the required NuGet packages
+
+Before you can run your tests you need to start the WinAppDriver server. By default you can find it here: C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe
+
+Locating Elements
+The latest Visual Studio version by default includes the Windows SDK with a great tool to inspect the application you are testing. This tool allows you to see every UI element/node that you can query using Windows Application Driver. This inspect.exe tool can be found under the Windows SDK folder which is typically C:\Program Files (x86)\Windows Kits\10\bin\
